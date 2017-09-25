@@ -1,6 +1,6 @@
 import './styles/screen.scss'
 // import './practice.js'
-import './practice3.js'
+import './todos.js'
 
 // const main = () => {
 //   document.querySelector('h1').textContent += '?'
