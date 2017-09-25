@@ -1,10 +1,12 @@
 import './styles/screen.scss'
+// import './practice.js'
+import './practice3.js'
 
-const main = () => {
-  document.querySelector('h1').textContent += '?'
-}
-
-document.addEventListener('DOMContentLoaded', main)
+// const main = () => {
+//   document.querySelector('h1').textContent += '?'
+// }
+//
+// document.addEventListener('DOMContentLoaded', main)
 
 // HERE BE DRAGONS... and webpack. Don't touch.
 if (process.env.NODE_ENV !== 'production') require('./index.html')
